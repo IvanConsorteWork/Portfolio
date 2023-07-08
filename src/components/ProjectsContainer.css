@@ -1,0 +1,21 @@
+#project-section {
+  height: 500vh;
+}
+
+#project-heading {
+  text-align: center;
+  font-size: 1rem;
+  padding: 2rem 0;
+  background-color: black;
+}
+
+#project-container {
+  height: 100%;
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15vh;
+}
