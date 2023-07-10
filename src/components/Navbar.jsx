@@ -1,20 +1,10 @@
-import React from 'react'
 import './Navbar.css'
+import { Link } from 'react-scroll';
 
 export default function Navbar () {
   return (
     <div id='navbar'>
-      <ul id='navbar-ul'>
-        <li>
-          About
-        </li>
-        <li>
-          Projects
-        </li>
-        <li>
-          Contact
-        </li>
-      </ul>
+      <h1>Ivan Consorte</h1>
     </div>
   )
 }

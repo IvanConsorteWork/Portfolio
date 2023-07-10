@@ -1,12 +1,19 @@
 #project-section {
-  height: 500vh;
+  height: 460vh;
+  background-color: black;
 }
 
 #project-heading {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 20vh
+}
+
+#project-heading > h1 {
   font-size: 1rem;
-  padding: 2rem 0;
-  background-color: black;
+  text-align: center;
 }
 
 #project-container {
@@ -15,7 +22,6 @@
   margin: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  gap: 15vh;
 }

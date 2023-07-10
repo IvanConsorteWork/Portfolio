@@ -1,6 +1,8 @@
 import './About.css'
 import SkillCard from '../components/SkillCard'
 import SkillsData from '../components/SkillsData'
+import { BsGithub, BsLinkedin } from 'react-icons/bs'
+import  { HiMail } from 'react-icons/hi'
 
 export default function About () {
   return (
@@ -27,6 +29,23 @@ export default function About () {
 							)
 						})}
 					</div>
+      </div>
+      <div id='contact'>
+        <h2>Let's get in touch</h2>
+        <div id='social-media'>
+          <a href='#'>
+            Email
+            <HiMail size={20} />
+          </a>
+          <a href='https://www.linkedin.com/in/ivanconsorte23/'>
+            Linkedin
+            <BsLinkedin size={20} />
+          </a>
+          <a href='https://github.com/IvanConsorteWork'>
+            Github
+            <BsGithub size={20} />
+          </a>
+        </div>
       </div>
     </div>
   )

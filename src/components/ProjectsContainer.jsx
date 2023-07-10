@@ -6,7 +6,10 @@ import ProjectsData from './ProjectsData';
 export default function ProjectsContainer () {
   return (
     <div id='project-section'>
-      <h1 id='project-heading'>These are projects I'm passionated about:</h1>
+      <div id='project-heading'>
+        <h1>These are projects</h1> 
+        <h1>I'm passionated about</h1>
+      </div>      
       <div id='project-container'>
         {ProjectsData.map((val, ind) => {
           return (
