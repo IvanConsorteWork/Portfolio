@@ -1,33 +1,74 @@
-#hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
-  gap: 5vh;
+#home-hero {
+	height: 100vh;
+	width: 100vw;
 }
 
-#hero-text {
-  font-size: .8rem;
-  text-align: center;
-  width: 90%;
+#home-mask {
+	width: 100%;
+	height: 100%;
+	position: relative
 }
 
-#hero-text > span {
-  font-size: 1.1rem;
+#home-mask > img {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	object-fit: cover
+}
+
+#home-mask::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	opacity: 0.7
+}
+
+#home-content {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	height: 120vh;
+	width: 80vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5vh; 
+	padding-top: 10vh;
+}
+
+#home-img-container {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+#home-img-container > img {
+	height: 225px;
+	width: 190px;
+	border-radius: 50%; 
+}
+
+#home-text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+  text-align: center; 
+}
+
+#home-text-container > p {
+	font-size: .9rem;
+}
+
+#home-text-container > p > span{
+	font-size: 1.1rem;
   font-weight: bolder;  
 }
 
-#hero-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-}
-
-#hero-img > img {
-  height: 225px;
-	width: 190px;
-	border-radius: 50%;  
-}
