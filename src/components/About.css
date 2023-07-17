@@ -1,5 +1,5 @@
 #about {
-  height: 185vh;
+  height: 200vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -30,6 +30,7 @@
 #about-skills {
   font-size: .8rem;
   text-align: center;
+  width: 80%;
 }
 
 #about-skills > h2 {
@@ -53,8 +54,8 @@
   height: 15%
 }
 
-#contact > h1 {
-  font-size: 1rem;
+#contact > h2 {
+  font-size: 1.5rem;
 }
 
 #social-media {
@@ -79,3 +80,124 @@
 #social-media a:hover {
   top: -10px
 }
+
+@media only screen and (min-width: 320px) {
+  #about {
+    height: 200vh
+  }
+}
+
+@media only screen and (min-width: 365px) {
+  #about {
+    height: 185vh
+  }
+}
+
+@media only screen and (min-width: 525px) {
+  #about-header > h1 {
+    font-size: 1.2rem;  
+  }
+  
+  #about-text {
+    font-size: 1rem;
+  }
+
+  #about-skills {
+    font-size: .9rem;
+  }
+  
+  #social-media > a {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #about {
+    height: 195vh
+  }
+  #about-header > h1 {
+    font-size: 1.3rem;  
+  }
+  
+  #about-text {
+    font-size: 1.1rem;
+  }
+
+  #about-skills {
+    font-size: 1rem;
+  }
+
+  #about-skills > h2 {
+    font-size: 1.7rem; 
+  }
+
+  #contact > h2 {
+    font-size: 1.7rem;
+  }
+  
+  #social-media > a {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 715px) {
+  #about {
+    height: 190vh
+  }
+
+  #about-header > h1 {
+    font-size: 1.5rem;  
+  }
+  
+  #about-text {
+    font-size: 1.3rem;
+  }
+
+  #about-skills {
+    font-size: 1.2rem;
+  }
+
+  #about-skills > h2 {
+    font-size: 1.9rem; 
+  }
+
+  #contact > h2 {
+    font-size: 1.9rem; 
+  }
+  
+  #social-media > a {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 852px) {
+  #about {
+    height: 200vh
+  }
+  #about-header > h1 {
+    font-size: 1.7rem;  
+  }
+  
+  #about-text {
+    font-size: 1.5rem;
+  }
+
+  #about-skills {
+    font-size: 1.4rem;
+  }
+
+  #about-skills > h2 {
+    font-size: 2.1rem; 
+  }
+
+  #contact > h2 {
+    font-size: 1.6rem;
+  }
+  
+  #social-media > a {
+    font-size: 1.5rem;
+  }
+}
+
+
+
