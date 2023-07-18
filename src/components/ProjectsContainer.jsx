@@ -5,7 +5,7 @@ import ProjectsData from './ProjectsData';
 
 export default function ProjectsContainer () {
   return (
-    <div id='project-section'>
+    <div id='project'>
       <div id='project-heading'>
         <h1>These are projects</h1> 
         <h1>I'm passionated about</h1>

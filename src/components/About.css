@@ -1,17 +1,18 @@
 #about {
-  height: 200vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5vh;
+  padding-bottom: 10vh;
+  background-color: rgb(27, 27, 27);
 }
 
 #about-header {
   text-align: center;  
   width: 100vw;
   background-color: black;
-  padding: 4vh 0
+  padding: 4vh 0;
 }
 
 #about-header > h1 {
@@ -19,7 +20,7 @@
 }
 
 #about-text {
-  font-size: .9rem;
+  font-size: .8rem;
   text-align: start;
   width: 85%;
   display: flex;
@@ -35,7 +36,7 @@
 
 #about-skills > h2 {
   margin-bottom: 3vh;
-  font-size: 1.5rem; 
+  font-size: 1.4rem; 
 }
 
 #about-skills-container {
@@ -55,7 +56,7 @@
 }
 
 #contact > h2 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 #social-media {
@@ -71,7 +72,7 @@
   justify-content: center;
   align-items: center;
   gap: 2vh;
-  font-size: 1.1rem;
+  font-size: 1rem;
   position: relative;
   top: 0;
   transition: top ease 0.5s;
@@ -81,46 +82,13 @@
   top: -10px
 }
 
-@media only screen and (min-width: 320px) {
-  #about {
-    height: 200vh
-  }
-}
-
-@media only screen and (min-width: 365px) {
-  #about {
-    height: 185vh
-  }
-}
-
-@media only screen and (min-width: 525px) {
-  #about-header > h1 {
-    font-size: 1.2rem;  
-  }
-  
-  #about-text {
-    font-size: 1rem;
-  }
-
-  #about-skills {
-    font-size: .9rem;
-  }
-  
-  #social-media > a {
-    font-size: 1.1rem;
-  }
-}
-
 @media only screen and (min-width: 600px) {
-  #about {
-    height: 195vh
-  }
   #about-header > h1 {
     font-size: 1.3rem;  
   }
   
   #about-text {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   #about-skills {
@@ -140,17 +108,51 @@
   }
 }
 
-@media only screen and (min-width: 715px) {
-  #about {
-    height: 190vh
-  }
-
+@media only screen and (min-width: 768px) {
   #about-header > h1 {
-    font-size: 1.5rem;  
+    font-size: 1.4rem;  
   }
   
   #about-text {
+    font-size: 1.1rem;
+  }
+
+  #about-skills {
+    font-size: 1.1rem;
+  }
+
+  #about-skills > h2 {
+    font-size: 1.8rem; 
+  }
+
+  #contact > h2 {
+    font-size: 1.8rem;
+  }
+  
+  #social-media > a {
     font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #about {
+    width: 80vw;
+    margin: auto
+  }
+
+  #about-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1vw
+  }
+
+  #about-header > h1 {
+    font-size: 1.6rem;  
+  }
+  
+  #about-text {
+    font-size: 1.2rem;
   }
 
   #about-skills {
@@ -162,42 +164,37 @@
   }
 
   #contact > h2 {
-    font-size: 1.9rem; 
+    font-size: 1.9rem;
   }
   
   #social-media > a {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
-@media only screen and (min-width: 852px) {
-  #about {
-    height: 200vh
-  }
+@media only screen and (min-width: 1200px) {
   #about-header > h1 {
-    font-size: 1.7rem;  
+    font-size: 1.8rem;  
   }
   
   #about-text {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   #about-skills {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   #about-skills > h2 {
-    font-size: 2.1rem; 
+    font-size: 2rem; 
   }
 
   #contact > h2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
   
   #social-media > a {
     font-size: 1.5rem;
   }
 }
-
-
 

@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-  background-color: rgb(27, 27, 27);
+  background-color: black;
 }
 
 h1, h2, h3, h4, a, p {
@@ -45,3 +45,28 @@ ul {
   color: #fff;
   transition: 0.3s
 }
+
+@media only screen and (min-width: 600px) {
+  .btn {
+    font-size: .8rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .btn {
+    font-size: .9rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .btn {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .btn {
+    font-size: 1.3rem;
+  }
+}
+

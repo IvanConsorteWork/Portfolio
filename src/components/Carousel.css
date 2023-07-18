@@ -1,6 +1,6 @@
 #carousel {
   height: 40vh;
-  width: 90vw;
+  width: 90%;
   position: relative;
   margin: auto;
   border: 1px solid grey
@@ -63,6 +63,36 @@
 
 .carousel-btn.next {
   right: 1vw
+}
+
+@media only screen and (min-width: 450px) {
+  #carousel {
+    height: 50vh;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #carousel {
+    height: 60vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #carousel {
+    height: 70vh;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #carousel {
+    height: 85vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #carousel {
+    height: 100vh;
+  }
 }
 
 
