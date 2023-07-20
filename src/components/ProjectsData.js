@@ -15,7 +15,7 @@ const ProjectsData = [
         stack: "React, Redux Toolkit, Typescript, Bootstrap",
         features: "Shopping Cart, Local Storage",
         text: "A rework of a previous project, with the aims of a more streamlined design and learning the tools used in today's standard products. WORK IN PROGRESS",        
-        view: "",
+        view: "https://becoming-fit-ex.vercel.app/",
         source: "https://github.com/IvanConsorteWork/Becoming-Fit-v2"
     },
     {

@@ -33,7 +33,7 @@ export default function About () {
       <div id='contact'>
         <h2>Let's get in touch</h2>
         <div id='social-media'>
-          <a href='#'>
+          <a href='mailto:ivanconsortework@gmail.com'>
             Email
             <HiMail size={20} />
           </a>
