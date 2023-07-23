@@ -10,15 +10,6 @@ import terralog5 from '../assets/terralog5.png'
 
 const ProjectsData = [
     {
-        imgs: [becomingFitv2, becomingFitv22, becomingFitv23],
-        title: "Becoming-Fit v2",
-        stack: "React, Redux Toolkit, Typescript, Bootstrap",
-        features: "Shopping Cart, Local Storage",
-        text: "A rework of a previous project, with the aims of a more streamlined design and learning the tools used in today's standard products. WORK IN PROGRESS",        
-        view: "https://becoming-fit-ex.vercel.app/",
-        source: "https://github.com/IvanConsorteWork/Becoming-Fit-v2"
-    },
-    {
         imgs: [terralog1, terralog2, terralog3, terralog4, terralog5],
         title: "Terralog",
         stack: "React, Redux, Express",
@@ -28,6 +19,15 @@ const ProjectsData = [
         source: "https://github.com/IvanConsorteWork/CountriesApp"
     },
     {
+        imgs: [becomingFitv2, becomingFitv22, becomingFitv23],
+        title: "Becoming-Fit v2",
+        stack: "React, Redux Toolkit, Typescript, Bootstrap",
+        features: "Shopping Cart, Local Storage",
+        text: "A rework of a previous project, with the aims of a more streamlined design and learning the tools used in today's standard products. WORK IN PROGRESS",        
+        view: "https://becoming-fit-ex.vercel.app/",
+        source: "https://github.com/IvanConsorteWork/Becoming-Fit-v2"
+    },
+    {
         imgs: [becomingfit, becomingfit],
         title: "Becoming-Fit",
         stack: "React, Redux, Bootstrap, Express",
@@ -35,7 +35,7 @@ const ProjectsData = [
         text: "A responsive Full Stack sports outfit's e-commerce project. Includes authentication, shopping cart/checkout and admin functions.",        
         view: "https://becoming-fit-br1oli.vercel.app/",
         source: "https://github.com/IvanConsorteWork/Becoming_Fit"
-    },
+    }
 ]
 
 export default ProjectsData;

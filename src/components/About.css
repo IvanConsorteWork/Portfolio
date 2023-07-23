@@ -67,6 +67,7 @@
   justify-content: space-around;
   align-items: center;
   width: 80vw;
+  gap: 2vh
 }
 
 #social-media > a {
