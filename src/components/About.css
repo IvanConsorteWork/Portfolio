@@ -131,6 +131,12 @@
   #contact > h2 {
     font-size: 1.8rem;
   }
+
+  #social-media {
+    flex-direction: row;
+    justify-content: center;
+    gap: 8rem
+  }
   
   #social-media > a {
     font-size: 1.3rem;
